@@ -14,56 +14,47 @@
     box-sizing: border-box;
 }
 
-/* h1,
-p{
-    margin: 0;
-} */
 
 body{
-    max-height: 100vh;
     margin: 0;
     font-family: "Outfit", sans-serif;
 }
 
 .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    padding-inline: 2rem;
     background-color: hsl(var(--clr-gray));
 }
 
-.qr-card{
-    aspect-ratio: 0.9;
+.container .qr-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     background-color: hsl(var(--clr-white));
-    border-radius: 1rem;
-    padding: 1rem;
-    margin-top: 2rem;
-    max-width: 800px;
-    /* this value work the best for all viewports */
-    width: 50%;
+    border-radius: 1.2rem;
 }
+
 
 .imgContainer{
     display: flex;
     justify-content: center;
+    padding: 1rem;
 }
 .imgContainer img{
-    max-width: 80%;
+    width: 100%;
     object-fit: cover;
 }
 
 .qr-card p{
     color: hsl(var(--clr-grayish_blue));
     text-align: center;
+    font-size: var(--fs);
+}
+
+.qr-card h1, .qr-card p{
+    padding-inline: 1rem;
 }
 
 .attribution{
     margin-top: 2rem;
-}
-/* for mobile device */
-@media (max-width: 375px){
-    .qr-card{
-        width: 100%;
-    }
 }
