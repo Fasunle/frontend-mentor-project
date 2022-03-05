@@ -21,11 +21,11 @@ body{
 }
 
 .container{
-    padding-inline: 2rem;
+    padding: 2rem;
     background-color: hsl(var(--clr-gray));
 }
 
-.container .qr-card{
+.qr-card{
     display: flex;
     flex-direction: column;
     align-items: center;
