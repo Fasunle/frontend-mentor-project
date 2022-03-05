@@ -41,6 +41,7 @@ body{
     padding: 1rem;
 }
 .imgContainer img{
+    border-radius: 1.2rem;
     width: 100%;
     object-fit: cover;
 }
