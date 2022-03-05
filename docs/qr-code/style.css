@@ -21,6 +21,9 @@ body{
 }
 
 .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     padding: 2rem;
     background-color: hsl(var(--clr-gray));
 }
