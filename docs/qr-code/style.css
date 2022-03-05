@@ -21,11 +21,11 @@ body{
 }
 
 .container{
-    padding-inline: 2rem;
+    padding: 2rem;
     background-color: hsl(var(--clr-gray));
 }
 
-.container .qr-card{
+.qr-card{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,6 +41,7 @@ body{
     padding: 1rem;
 }
 .imgContainer img{
+    border-radius: 1.2rem;
     width: 100%;
     object-fit: cover;
 }
