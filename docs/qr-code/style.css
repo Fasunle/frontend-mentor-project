@@ -21,15 +21,15 @@ body{
 }
 
 .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     padding: 2rem;
     background-color: hsl(var(--clr-gray));
 }
 
 .qr-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    max-width: max-content;
     background-color: hsl(var(--clr-white));
     border-radius: 1.2rem;
 }
