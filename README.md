@@ -10,3 +10,5 @@ Solving real life challenges using css, html and javascript
 3. [Product Preview](https://fasunle.github.io/frontend-mentor-project/product-preview/)
 
 4. [Intro section with dropdown navigation main](https://github.com/Fasunle/frontend-mentor-project/tree/main/docs/intro-section-with-dropdown-navigation-main)
+
+5. [insure landing page](https://github.com/Fasunle/insure-landing-page)
